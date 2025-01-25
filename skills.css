@@ -1,0 +1,94 @@
+/* General Reset */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black; /* Light background for readability */
+    color:whitesmoke; /* Dark text color */
+    padding: 20px;
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black; /* Blue background for header */
+    color: #f39c12; /* White text for header */
+    border-radius: 8px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+}
+
+/* Content Styling */
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white; /* White background for content */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Skills Section Styling */
+.skills-section {
+    margin-bottom: 20px;
+}
+
+.skills-section h2 {
+    font-size: 1.8rem;
+    color: #2c3e50; /* Darker blue for section headings */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3498db; /* Underline for section headings */
+    padding-bottom: 5px;
+}
+
+.skills-section ul {
+    list-style-type: disc; /* Bullet points */
+    margin-left: 20px;
+}
+
+.skills-section li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555; /* Subtle gray for list items */
+}
+header {
+    background: black;
+    color:white;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color:cyan;
+    text-decoration: none;
+}
