@@ -11,3 +11,10 @@ document.getElementById('project2').addEventListener('click', function () {
 document.getElementById('more').addEventListener('click', function () {
     window.location.href = 'more.html'; // Navigate to p1.html
 });
+document.getElementById('education').addEventListener('click', function () {
+    window.location.href = 'edu.html'; // Navigate to p1.html
+});
+document.getElementById('skills').addEventListener('click', function () {
+    window.location.href = 'skills.html'; // Navigate to p1.html
+});
+
